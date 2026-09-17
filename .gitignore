@@ -145,3 +145,15 @@ models/*.pkl
 
 # vscode Stuff
 .vscode
+# Do not upload local datasets
+data/*
+!data/.gitkeep
+
+# Do not upload database credentials
+.env
+
+# Ignore all CSV datasets
+*.csv
+
+# Ignore environment variables
+.env
